@@ -18,10 +18,10 @@ function App() {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
       {data.regions.map(region => (
-        <Regiao data={region} />
+        <Regiao key={region.id} data={region} />
       ))}
 
-      <Subtitles />
+      {/* <Subtitles /> */}
     </Map >
 
   );
