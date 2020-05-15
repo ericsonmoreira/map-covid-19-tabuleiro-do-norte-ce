@@ -1,0 +1,312 @@
+{
+  "regions": [
+    {
+      "nome": "08 de Junho",
+      "id": 1,
+      "localization": [
+        -5.2400167,
+        -38.1492682
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 3,
+        "descartados": 1,
+        "letais": 1
+      }
+    },
+    {
+      "nome": "08 de Setembro",
+      "id": 2,
+      "localization": [
+        -5.242337,
+        -38.1249066
+      ],
+      "casos": {
+        "confirmados": 1,
+        "suspeitos": 3,
+        "descartados": 3,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Água Suja",
+      "id": 3,
+      "localization": [
+        -5.29252,
+        -38.0208015
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Barrinha",
+      "id": 4,
+      "localization": [
+        -5.2290099,
+        -38.1686977
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Bom Futuro",
+      "id": 5,
+      "localization": [
+        -5.2563379,
+        -38.1306042
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 2,
+        "descartados": 4,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Carnaubal",
+      "id": 6,
+      "localization": [
+        -5.2124487,
+        -38.1310377
+      ],
+      "casos": {
+        "confirmados": 1,
+        "suspeitos": 0,
+        "descartados": 3,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Centro",
+      "id": 7,
+      "localization": [
+        -5.2461617,
+        -38.133616
+      ],
+      "casos": {
+        "confirmados": 11,
+        "suspeitos": 13,
+        "descartados": 22,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Gangorinha",
+      "id": 8,
+      "localization": [
+        -5.2999785,
+        -38.1087548
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Joaquim Fernades Colares",
+      "id": 9,
+      "localization": [
+        -5.2570044,
+        -38.1459729
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "José Mendes",
+      "id": 10,
+      "localization": [
+        -5.237474,
+        -38.1362311
+      ],
+      "casos": {
+        "confirmados": 5,
+        "suspeitos": 7,
+        "descartados": 12,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Juazeiro",
+      "id": 11,
+      "localization": [
+        -5.2169279,
+        -38.1407181
+      ],
+      "casos": {
+        "confirmados": 4,
+        "suspeitos": 0,
+        "descartados": 5,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Lagoa do Peixe",
+      "id": 12,
+      "localization": [
+        -5.2698897,
+        -38.0792198
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 0,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Lagoinha",
+      "id": 13,
+      "localization": [
+        -5.2433952,
+        -38.1160205
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Olho d'Água da Bica",
+      "id": 14,
+      "localization": [
+        -5.3961703,
+        -38.0274273
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Barra do Feijão",
+      "id": 15,
+      "localization": [
+        -5.4166455,
+        -38.1087548
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 0,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Pedra Preta",
+      "id": 16,
+      "localization": [
+        -5.2122685,
+        -38.19889
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Pedro Gomes da Costa",
+      "id": 17,
+      "localization": [
+        -5.2369373,
+        -38.1270133
+      ],
+      "casos": {
+        "confirmados": 1,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Peixe Gordo",
+      "id": 18,
+      "localization": [
+        -5.2093103,
+        -38.2234729
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Poço Barrento",
+      "id": 19,
+      "localization": [
+        -5.2259942,
+        -38.1494417
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "São Francisco",
+      "id": 20,
+      "localization": [
+        -5.2990372,
+        -38.1529396
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "São Vicente",
+      "id": 21,
+      "localization": [
+        -5.2575437,
+        -38.136759
+      ],
+      "casos": {
+        "confirmados": 3,
+        "suspeitos": 1,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Vila Macena",
+      "id": 22,
+      "localization": [
+        -5.2632564,
+        -38.1354242
+      ],
+      "casos": {
+        "confirmados": 3,
+        "suspeitos": 1,
+        "descartados": 1,
+        "letais": 1
+      }
+    }
+  ]
+}
