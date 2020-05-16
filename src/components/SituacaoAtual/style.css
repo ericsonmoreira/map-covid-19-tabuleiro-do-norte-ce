@@ -5,4 +5,29 @@
   left: 1em;
   z-index: 1000;
   border: dashed 2px #000000;
+  font-size: 1.2em;
+}
+
+.SituacaoAtual ul {
+  display: inline;
+}
+
+#confirmados {
+  color: antiquewhite;
+  background-color: red;
+}
+
+#suspeitos {
+  color: antiquewhite;
+  background-color: orange;
+}
+
+#descartados {
+  color: antiquewhite;
+  background-color: blue;
+}
+
+#letais {
+  color: antiquewhite;
+  background-color: black;
 }
