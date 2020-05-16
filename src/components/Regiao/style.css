@@ -1,4 +1,6 @@
 .Tooltip {
+  position: absolute;
+  z-index: 1000;
   background-color: #f9f9f9;
   font-size: medium;
 }

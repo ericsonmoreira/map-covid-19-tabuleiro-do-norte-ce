@@ -12,14 +12,17 @@
 [x] Água Suja (localização imprecisa)
 [x] Barrinha
 [x] Bom Futuro
+[x] Cajueiro (localização imprecisa)
 [x] Carnaubal
 [x] Centro
+[x] Francisco Chagas Martins
 [x] Gangorinha
 [x] Joaquim Fernades Colares
 [x] José Mendes
 [x] Juazeiro
 [x] Lagora do Peixe
 [x] Lagoinha (localização imprecisa)
+[x] Malhadinha
 [x] Olho d'Água da Bica
 [x] Barra do Feijão
 [x] Pedra Preta

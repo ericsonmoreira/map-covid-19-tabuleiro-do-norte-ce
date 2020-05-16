@@ -5,19 +5,21 @@ import './style.css';
 
 function Regiao({ data }) {
 
-  // Tratar a cor da esfera
-  const _handleColor = () => {
-    const radius = _handleRadius() 
-    
-    return "green"
-  }
-
   const _handleRadius = () => {
     const confirmados = data.casos.confirmados
     const suspeitos = data.casos.suspeitos
     const descartados = data.casos.descartados
     const letais = data.casos.letais
     return ((3 * confirmados + 2 * suspeitos + descartados + 5 * letais) / 4) + 6
+  }
+
+  /**
+   * Trata de calcular a cor que vai mostrar.
+   * A cor varia de verde pra vermelho de acordo com o valor do radius
+   */
+  const _handleColor = () => {
+    const radius = _handleRadius() 
+    return `rgb(${radius * radius}, 120, 0)`
   }
 
   return (
