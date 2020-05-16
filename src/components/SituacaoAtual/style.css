@@ -1,7 +1,8 @@
 .SituacaoAtual {
-  margin: 20px;
-  padding: 20px;
+  padding: 1em;
   position: absolute;
+  bottom: 1em;
+  left: 1em;
   z-index: 1000;
   border: dashed 2px #000000;
 }

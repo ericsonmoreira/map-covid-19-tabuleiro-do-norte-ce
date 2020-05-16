@@ -6,7 +6,7 @@ import {
 
 import * as data from '../tabueiro_data.json'
 import Regiao from './components/Regiao';
-import Menu from './components/Menu';
+// import Menu from './components/Menu';
 import SituacaoAtual from './components/SituacaoAtual';
 
 const center = [-5.2482901, -38.1303705]
@@ -14,7 +14,7 @@ const zoom = 12
 
 function App() {
 
-  const getEpidemiologicalSituation = () => {
+  data.situation = () => {
     const atual = { confirmados: 0, suspeitos: 0, descartados: 0, letais: 0 }
     data.regions.forEach(region => {
       atual.confirmados += region.casos.confirmados
@@ -40,7 +40,7 @@ function App() {
 
         {/* <Menu /> */}
 
-        <SituacaoAtual data={getEpidemiologicalSituation()} />
+        <SituacaoAtual data={data.situation} />
 
       </Map >
 
