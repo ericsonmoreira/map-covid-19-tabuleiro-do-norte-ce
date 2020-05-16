@@ -40,7 +40,7 @@ function App() {
 
         {/* <Menu /> */}
 
-        <SituacaoAtual data={data.situation} />
+        <SituacaoAtual data={data.situation()} />
 
       </Map >
 
