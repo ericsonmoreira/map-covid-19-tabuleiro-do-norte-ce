@@ -1,0 +1,11 @@
+.Info {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 1000; 
+}
+
+.Info img {
+  height: 25px;
+  width: 25px;
+}

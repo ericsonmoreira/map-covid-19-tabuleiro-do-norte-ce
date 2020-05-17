@@ -4,6 +4,7 @@ import { Map, TileLayer, ZoomControl } from 'react-leaflet'
 import * as data from '../tabueiro_data.json'
 import Regiao from './components/Regiao';
 import SituacaoAtual from './components/SituacaoAtual';
+import Info from './components/Info';
 
 const center = [-5.2482901, -38.1303705]
 const zoom = 12
@@ -40,7 +41,7 @@ function App() {
           data={data.situation()}
           referencia={data.referencia}
         />
-
+        <Info />
       </Map >
 
     </div>

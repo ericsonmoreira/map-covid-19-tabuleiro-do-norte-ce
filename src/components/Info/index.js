@@ -1,11 +1,11 @@
 import React from 'react';
-import './styles.css';
-import { Icon } from 'leaflet';
+import './style.css';
+import icon from '../../../public/infoicon.svg'
 
 function Info() {
   return (
-    <div>
-      <Icon></Icon>
+    <div className="Info">
+      <img src={icon} alt="logo" />
     </div>
   )
 }
