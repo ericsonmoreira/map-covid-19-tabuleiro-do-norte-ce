@@ -6,6 +6,9 @@ import Regiao from './components/Regiao';
 import SituacaoAtual from './components/SituacaoAtual';
 import Info from './components/Info';
 
+import { TabuleiroDataProvider } from './context/TabuleiroData'
+
+
 const center = [-5.2482901, -38.1303705]
 const zoom = 12
 
@@ -23,28 +26,31 @@ function App() {
   }
 
   return (
-    <div className="App">
-      {/* zoomControl false para desabilitar o zoom na posição padão */}
-      <Map center={center} zoom={zoom} zoomControl={false}>
-        <TileLayer attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+    <TabuleiroDataProvider>
 
-        {data.regions.map((region, index) => (
-          <Regiao key={index} data={region} />
-        ))}
+      <div className="App">
+        {/* zoomControl false para desabilitar o zoom na posição padão */}
+        <Map center={center} zoom={zoom} zoomControl={false}>
+          <TileLayer attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
-        <ZoomControl position="bottomright" />
+          {data.regions.map((region, index) => (
+            <Regiao key={index} data={region} />
+          ))}
 
-        {/* <Menu /> */}
+          <ZoomControl position="bottomright" />
 
-        <SituacaoAtual
-          data={data.situation()}
-          referencia={data.referencia}
-        />
-        <Info />
-      </Map >
+          {/* <Menu /> */}
 
-    </div>
+          <SituacaoAtual
+            data={data.situation()}
+            referencia={data.referencia}
+          />
+          {/* <Info /> */}
+        </Map >
+
+      </div>
+    </TabuleiroDataProvider>
   );
 
 }

@@ -5,11 +5,12 @@ import './style.css'
 // data => { confirmados:0, suspeitos:0, descartados:0, letais:0 }
 function SituacaoAtual({ data, referencia }) {
 
+  // lembrar que o mês começa com 0
   const dataRef = new Date(
     referencia.ano,
-    referencia.mes,
+    referencia.mes - 1,
     referencia.dia
-  )
+  ) 
 
   return (
     <div className="SituacaoAtual">
