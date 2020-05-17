@@ -20,8 +20,8 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 1,
-        "suspeitos": 4,
+        "confirmados": 2,
+        "suspeitos": 3,
         "descartados": 3,
         "letais": 0
       }
@@ -176,8 +176,8 @@
         -38.0792198
       ],
       "casos": {
-        "confirmados": 0,
-        "suspeitos": 1,
+        "confirmados": 1,
+        "suspeitos": 0,
         "descartados": 0,
         "letais": 0
       }
@@ -329,7 +329,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 5,
-    "dia": 15,
-    "hora": 0
+    "dia": 17
   }
 }
