@@ -4,12 +4,22 @@
   bottom: 1em;
   left: 1em;
   z-index: 1000;
-  border: dashed 2px #000000;
+  border: 2px #000000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   font-size: 1.2em;
+  background-color: antiquewhite;
 }
 
 .SituacaoAtual ul {
   display: inline;
+  list-style: none;
+}
+
+.SituacaoAtual ul li {
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin: 2px;
 }
 
 #confirmados {

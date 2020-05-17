@@ -18,7 +18,7 @@ function Regiao({ data }) {
    * A cor varia de verde pra vermelho de acordo com o valor do radius
    */
   const _handleColor = () => {
-    const radius = _handleRadius() 
+    const radius = _handleRadius()
     return `rgb(${radius * radius}, 120, 0)`
   }
 
@@ -26,17 +26,18 @@ function Regiao({ data }) {
     <CircleMarker
       key={data.id}
       center={data.localization}
-      color={_handleColor()} 
+      color={_handleColor()}
       radius={_handleRadius()} >
       <Tooltip className="Tooltip">
-        <h3>{data.nome}</h3>
-        <h4>Casos</h4>
-        <ul>
-          <li>Confirmados: {data.casos.confirmados}</li>
-          <li>Suspeitos: {data.casos.suspeitos}</li>
-          <li>Descartados: {data.casos.descartados}</li>
-          <li>Letais: {data.casos.letais}</li>
-        </ul>
+        <div>
+          <span>{data.nome}</span>
+          <ul>
+            <li id="confirmados">Confirmados: {data.casos.confirmados}</li>
+            <li id="suspeitos">Suspeitos: {data.casos.suspeitos}</li>
+            <li id="descartados">Descartados: {data.casos.descartados}</li>
+            <li id="letais">Letais: {data.casos.letais}</li>
+          </ul>
+        </div>
       </Tooltip>
     </CircleMarker>
   );

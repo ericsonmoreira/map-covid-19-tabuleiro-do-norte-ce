@@ -1,12 +1,8 @@
 import React from 'react';
-import {
-  Map, TileLayer, ZoomControl,
-  // Marker, Popup, Rectangle, Circle, Tooltip, LayerGroup,
-} from 'react-leaflet'
+import { Map, TileLayer, ZoomControl } from 'react-leaflet'
 
 import * as data from '../tabueiro_data.json'
 import Regiao from './components/Regiao';
-// import Menu from './components/Menu';
 import SituacaoAtual from './components/SituacaoAtual';
 
 const center = [-5.2482901, -38.1303705]
@@ -40,7 +36,10 @@ function App() {
 
         {/* <Menu /> */}
 
-        <SituacaoAtual data={data.situation()} />
+        <SituacaoAtual
+          data={data.situation()}
+          referencia={data.referencia}
+        />
 
       </Map >
 

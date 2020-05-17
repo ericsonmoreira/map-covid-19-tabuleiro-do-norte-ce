@@ -325,5 +325,11 @@
         "letais": 1
       }
     }
-  ]
+  ],
+  "referencia": {
+    "ano": 2020,
+    "mes": 5,
+    "dia": 15,
+    "hora": 0
+  }
 }

@@ -2,5 +2,36 @@
   position: absolute;
   z-index: 1000;
   background-color: #f9f9f9;
-  font-size: medium;
+  font-size: 1.2em;
+}
+
+.Tooltip ul {
+  display: inline;
+  list-style: none;
+}
+
+.Tooltip ul li {
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+#confirmados {
+  color: antiquewhite;
+  background-color: red;
+}
+
+#suspeitos {
+  color: antiquewhite;
+  background-color: orange;
+}
+
+#descartados {
+  color: antiquewhite;
+  background-color: blue;
+}
+
+#letais {
+  color: antiquewhite;
+  background-color: black;
 }
