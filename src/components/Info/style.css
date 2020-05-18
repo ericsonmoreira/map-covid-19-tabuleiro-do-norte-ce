@@ -9,3 +9,9 @@
   height: 25px;
   width: 25px;
 }
+
+.Info img:hover{
+  height: 50px;
+  width: 50px;
+  transition: .2s;
+}

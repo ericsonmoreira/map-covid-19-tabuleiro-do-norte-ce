@@ -3,6 +3,7 @@ import { Map, TileLayer, ZoomControl } from 'react-leaflet'
 import { useTabuleiroData } from './context/TabuleiroData'
 import Regiao from './components/Regiao';
 import SituacaoAtual from './components/SituacaoAtual';
+import Info from './components/Info';
 
 const center = [-5.2482901, -38.1303705]
 const zoom = 12
@@ -27,8 +28,7 @@ function App() {
 
         {/* <Menu /> */}
 
-
-        {/* <Info /> */}
+        <Info />
 
       </Map >
     </div>

@@ -1,15 +1,19 @@
 import React from 'react';
 import './style.css';
-import icon from '../../../public/infoicon.svg'
+import icon from '../../../public/githubicon.svg'
 
-// Ainda em desenvolvimento
 function Info() {
+
+  const url = "https://github.com/ericsonmoreira/map-covid-19-tabuleiro-do-norte-ce"
 
   return (
     <div className="Info">
-      <img src={icon} alt="logo" />
+      <a href={url}>
+        <img src={icon} alt="logo" />
+      </a>
     </div>
   )
+
 }
 
 export default Info;
