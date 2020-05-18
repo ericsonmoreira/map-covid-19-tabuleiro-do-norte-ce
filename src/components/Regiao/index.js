@@ -28,13 +28,27 @@ function Regiao({ data }) {
       color={_handleColor()}
       radius={_handleRadius()} >
       <Tooltip className="Tooltip">
-        <div>
+        <div className="content">
           <span><b>{data.nome}</b></span>
           <ul>
-            <li id="confirmados">Confirmados: {data.casos.confirmados}</li>
-            <li id="suspeitos">Suspeitos: {data.casos.suspeitos}</li>
-            <li id="descartados">Descartados: {data.casos.descartados}</li>
-            <li id="letais">Letais: {data.casos.letais}</li>
+            <li id="confirmados">
+              Confirmados
+              <div className="value">
+                {data.casos.confirmados}
+              </div>
+            </li>
+            <li id="suspeitos">
+              Suspeitos
+              <div className="value">{data.casos.suspeitos}</div>
+            </li>
+            <li id="descartados">
+              Descartados
+              <div className="value">{data.casos.descartados}</div>
+            </li>
+            <li id="letais">
+              Letais
+              <div className="value">{data.casos.letais}</div>
+            </li>
           </ul>
         </div>
       </Tooltip>

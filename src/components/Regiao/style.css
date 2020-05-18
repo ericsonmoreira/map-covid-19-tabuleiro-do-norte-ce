@@ -5,6 +5,11 @@
   font-size: 1.2em;
 }
 
+.Tooltip .content{
+  max-width: 200px;
+  min-width: 150px;
+}
+
 .Tooltip ul {
   display: inline;
   list-style: none;
@@ -14,6 +19,7 @@
   padding: 2px 8px;
   border-radius: 10px;
   margin: 2px;
+  align-content: space-between;
 }
 
 #confirmados {
@@ -34,4 +40,8 @@
 #letais {
   color: antiquewhite;
   background-color: black;
+}
+
+.value{
+  float: left;
 }
