@@ -40,9 +40,9 @@ export function TabuleiroDataProvider({ children }) {
 export function useTabuleiroData() {
   const context = useContext(TabuleiroDataContext)
   const { regions, referencia, situation } = context
-  return [
+  return {
     regions,
     referencia,
     situation
-  ]
+  }
 } 

@@ -9,7 +9,7 @@ const zoom = 12
 
 function App() {
 
-  const [regions] = useTabuleiroData()
+  const {regions} = useTabuleiroData()
 
   return (
     <div className="App">
@@ -22,7 +22,6 @@ function App() {
         {regions.map((region, index) => (
           <Regiao key={index} data={region} />
         ))}
-
 
         <SituacaoAtual />
 
