@@ -1,34 +1,13 @@
-# Projeto: Map Covid-19 Tabuleiro do Norte
+# Mapa Covid-19 Tabuleiro do Norte - CE
 
-## Issies
+Uma aplicação para o acompanhamento dos casos de Covid-19 pelas regiões do município de [Tabuleiro do Norte - CE](http://www.tabuleirodonorte.ce.gov.br/) em um mapa. O diámetro e cor dos circulos mostram a intensidade do virús naquela região.
 
-- [x] Cálculo do "radius" do círculo do componente Regiao.
-- [x] Trocar os marcadores por circulos.
+<h1 align="center">
+  <img src="./src/.github/page.png">
+</h1>
 
-## Localidades de Tabuleiro do Norte - CE
+Para testar a aplicação [clique aqui](https://map-covid-19-tab-do-norte.herokuapp.com/).
 
-- [x] 08 de Junho
-- [x] 08 de Setembro
-- [x] Água Suja (localização imprecisa)
-- [x] Barrinha
-- [x] Bom Futuro
-- [x] Cajueiro (localização imprecisa)
-- [x] Carnaubal
-- [x] Centro
-- [x] Francisco Chagas Martins
-- [x] Gangorinha
-- [x] Joaquim Fernades Colares
-- [x] José Mendes
-- [x] Juazeiro
-- [x] Lagora do Peixe
-- [x] Lagoinha (localização imprecisa)
-- [x] Malhadinha
-- [x] Olho d'Água da Bica
-- [x] Barra do Feijão
-- [x] Pedra Preta
-- [x] Pedro Gomes da Costa
-- [x] Peixe Gordo
-- [x] Poço Barrento
-- [x] São Francisco
-- [x] São Vicente
-- [x] Vila Macena
+## Funcionamento
+
+Infelismente, não existe uma forma automatizada de buscar essas informações, como por exemplo usando uma API. A solução que utilizei foi, diariamente, coletar as informações no [Instagram oficial da prefeitura de Tabuleiro do Norte](https://www.instagram.com/prefeituradetabuleirodonorte/) ou com funcionários da administração pública da prefeitura para depois atualizar o repositório.
