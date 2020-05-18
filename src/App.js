@@ -1,56 +1,38 @@
 import React from 'react';
 import { Map, TileLayer, ZoomControl } from 'react-leaflet'
-
-import * as data from '../tabueiro_data.json'
+import { useTabuleiroData } from './context/TabuleiroData'
 import Regiao from './components/Regiao';
 import SituacaoAtual from './components/SituacaoAtual';
-import Info from './components/Info';
-
-import { TabuleiroDataProvider } from './context/TabuleiroData'
-
 
 const center = [-5.2482901, -38.1303705]
 const zoom = 12
 
 function App() {
 
-  data.situation = () => {
-    const atual = { confirmados: 0, suspeitos: 0, descartados: 0, letais: 0 }
-    data.regions.forEach(region => {
-      atual.confirmados += region.casos.confirmados
-      atual.suspeitos += region.casos.suspeitos
-      atual.descartados += region.casos.descartados
-      atual.letais += region.casos.letais
-    });
-    return atual
-  }
+  const [regions] = useTabuleiroData()
 
   return (
-    <TabuleiroDataProvider>
+    <div className="App">
+      {/* zoomControl false para desabilitar o zoom na posição padão */}
+      <Map center={center} zoom={zoom} zoomControl={false}>
+        <TileLayer attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <ZoomControl position="bottomright" />
 
-      <div className="App">
-        {/* zoomControl false para desabilitar o zoom na posição padão */}
-        <Map center={center} zoom={zoom} zoomControl={false}>
-          <TileLayer attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        {regions.map((region, index) => (
+          <Regiao key={index} data={region} />
+        ))}
 
-          {data.regions.map((region, index) => (
-            <Regiao key={index} data={region} />
-          ))}
 
-          <ZoomControl position="bottomright" />
+        <SituacaoAtual />
 
-          {/* <Menu /> */}
+        {/* <Menu /> */}
 
-          <SituacaoAtual
-            data={data.situation()}
-            referencia={data.referencia}
-          />
-          {/* <Info /> */}
-        </Map >
 
-      </div>
-    </TabuleiroDataProvider>
+        {/* <Info /> */}
+
+      </Map >
+    </div>
   );
 
 }

@@ -1,13 +1,8 @@
 import React from 'react';
 import { Tooltip, CircleMarker } from 'react-leaflet';
-import { useTabuleiroData } from '../../context/TabuleiroData'
 import './style.css';
 
 function Regiao({ data }) {
-
-  const { newTabuleiroData } = useTabuleiroData()
-
-  console.log(newTabuleiroData);
 
   const _handleRadius = () => {
     const confirmados = data.casos.confirmados
@@ -34,7 +29,7 @@ function Regiao({ data }) {
       radius={_handleRadius()} >
       <Tooltip className="Tooltip">
         <div>
-          <span>{data.nome}</span>
+          <span><b>{data.nome}</b></span>
           <ul>
             <li id="confirmados">Confirmados: {data.casos.confirmados}</li>
             <li id="suspeitos">Suspeitos: {data.casos.suspeitos}</li>

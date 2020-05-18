@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
-// import '../node_modules/leaflet/dist/leaflet.css'
+import {TabuleiroDataProvider} from './context/TabuleiroData'
 
 ReactDOM.render(
-  <App />,
+  <TabuleiroDataProvider>
+    <App />
+  </TabuleiroDataProvider>,
   document.getElementById('root')
 );
