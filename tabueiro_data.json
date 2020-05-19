@@ -8,7 +8,7 @@
       ],
       "casos": {
         "confirmados": 1,
-        "suspeitos": 2,
+        "suspeitos": 3,
         "descartados": 1,
         "letais": 0
       }
@@ -20,9 +20,22 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 2,
-        "suspeitos": 6,
+        "confirmados": 4,
+        "suspeitos": 7,
         "descartados": 4,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Água Santa",
+      "localization": [
+        -5.2506962,
+        -38.1257885
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 0,
         "letais": 0
       }
     },
@@ -31,6 +44,19 @@
       "localization": [
         -5.29252,
         -38.0208015
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Altinho",
+      "localization": [
+        -5.2253801,
+        -38.1289784
       ],
       "casos": {
         "confirmados": 0,
@@ -60,8 +86,8 @@
       ],
       "casos": {
         "confirmados": 2,
-        "suspeitos": 3,
-        "descartados": 4,
+        "suspeitos": 4,
+        "descartados": 5,
         "letais": 0
       }
     },
@@ -98,9 +124,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 17,
-        "suspeitos": 14,
-        "descartados": 28,
+        "confirmados": 21,
+        "suspeitos": 21,
+        "descartados": 30,
         "letais": 0
       }
     },
@@ -138,7 +164,7 @@
       ],
       "casos": {
         "confirmados": 1,
-        "suspeitos": 1,
+        "suspeitos": 2,
         "descartados": 2,
         "letais": 0
       }
@@ -151,8 +177,8 @@
       ],
       "casos": {
         "confirmados": 5,
-        "suspeitos": 11,
-        "descartados": 15,
+        "suspeitos": 12,
+        "descartados": 16,
         "letais": 0
       }
     },
@@ -163,8 +189,8 @@
         -38.1407181
       ],
       "casos": {
-        "confirmados": 4,
-        "suspeitos": 0,
+        "confirmados": 5,
+        "suspeitos": 2,
         "descartados": 5,
         "letais": 0
       }
@@ -280,9 +306,22 @@
         -38.1494417
       ],
       "casos": {
-        "confirmados": 0,
+        "confirmados": 1,
         "suspeitos": 1,
         "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "São Estevão",
+      "localization": [
+        -5.3091646,
+        -38.0813568
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 0,
         "letais": 0
       }
     },
@@ -294,8 +333,8 @@
       ],
       "casos": {
         "confirmados": 0,
-        "suspeitos": 1,
-        "descartados": 3,
+        "suspeitos": 2,
+        "descartados": 4,
         "letais": 0
       }
     },
@@ -333,7 +372,7 @@
       ],
       "casos": {
         "confirmados": 3,
-        "suspeitos": 4,
+        "suspeitos": 5,
         "descartados": 2,
         "letais": 1
       }
@@ -342,6 +381,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 5,
-    "dia": 18
+    "dia": 19
   }
 }
