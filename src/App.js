@@ -4,6 +4,7 @@ import { useTabuleiroData } from './context/TabuleiroData'
 import Regiao from './components/Regiao';
 import SituacaoAtual from './components/SituacaoAtual';
 import Info from './components/Info';
+import LocalidadesTable from './components/LocalidadesTable';
 
 const center = [-5.2482901, -38.1303705]
 const zoom = 12
@@ -26,7 +27,7 @@ function App() {
 
         <SituacaoAtual />
 
-        {/* <Menu /> */}
+        {/* <LocalidadesTable /> */}
 
         <Info />
 
