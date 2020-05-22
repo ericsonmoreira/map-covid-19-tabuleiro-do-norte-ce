@@ -4,11 +4,10 @@ import './style.css';
 
 function Regiao({ data }) {
 
+  const { confirmados, suspeitos, descartados, letais } = data.casos
+
+  // Calcula tamanho do diâmetro do círculo
   const _handleRadius = () => {
-    const confirmados = data.casos.confirmados
-    const suspeitos = data.casos.suspeitos
-    const descartados = data.casos.descartados
-    const letais = data.casos.letais
     return ((3 * confirmados + 2 * suspeitos + descartados + 5 * letais) / 4) + 6
   }
 
@@ -18,7 +17,7 @@ function Regiao({ data }) {
    */
   const _handleColor = () => {
     const radius = _handleRadius()
-    return `rgb(${radius * radius}, 120, 0)`
+    return `rgb(${radius * radius}, ${255 - radius * radius}, 0)`
   }
 
   return (
@@ -33,21 +32,19 @@ function Regiao({ data }) {
           <ul>
             <li id="confirmados">
               Confirmados
-              <div className="value">
-                {data.casos.confirmados}
-              </div>
+              <div className="value">{confirmados}</div>
             </li>
             <li id="suspeitos">
               Suspeitos
-              <div className="value">{data.casos.suspeitos}</div>
+              <div className="value">{suspeitos}</div>
             </li>
             <li id="descartados">
               Descartados
-              <div className="value">{data.casos.descartados}</div>
+              <div className="value">{descartados}</div>
             </li>
             <li id="letais">
               Letais
-              <div className="value">{data.casos.letais}</div>
+              <div className="value">{letais}</div>
             </li>
           </ul>
         </div>

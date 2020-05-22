@@ -13,9 +13,7 @@ function SituacaoAtual() {
     referencia.mes - 1,
     referencia.dia
   )
-
-  console.log(referencia)
-
+  
   return (
     <div className="SituacaoAtual">
       <span><b>Situação Atual</b></span>
