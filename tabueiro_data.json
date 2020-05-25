@@ -20,8 +20,8 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 4,
-        "suspeitos": 5,
+        "confirmados": 5,
+        "suspeitos": 7,
         "descartados": 11,
         "letais": 0
       }
@@ -34,7 +34,7 @@
       ],
       "casos": {
         "confirmados": 0,
-        "suspeitos": 3,
+        "suspeitos": 5,
         "descartados": 1,
         "letais": 0
       }
@@ -85,7 +85,7 @@
         -38.1306042
       ],
       "casos": {
-        "confirmados": 5,
+        "confirmados": 6,
         "suspeitos": 3,
         "descartados": 12,
         "letais": 0
@@ -124,9 +124,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 37,
-        "suspeitos": 16,
-        "descartados": 53,
+        "confirmados": 39,
+        "suspeitos": 22,
+        "descartados": 55,
         "letais": 1
       }
     },
@@ -170,13 +170,26 @@
       }
     },
     {
+      "nome": "Jenipapeiro",
+      "localization": [
+        -5.2264496,
+        -38.1608574
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 0,
+        "letais": 0
+      }
+    },
+    {
       "nome": "Joaquim Fernades Colares",
       "localization": [
         -5.2570044,
         -38.1459729
       ],
       "casos": {
-        "confirmados": 3,
+        "confirmados": 4,
         "suspeitos": 2,
         "descartados": 2,
         "letais": 0
@@ -190,8 +203,8 @@
       ],
       "casos": {
         "confirmados": 12,
-        "suspeitos": 7,
-        "descartados": 24,
+        "suspeitos": 8,
+        "descartados": 25,
         "letais": 0
       }
     },
@@ -255,7 +268,7 @@
       ],
       "casos": {
         "confirmados": 1,
-        "suspeitos": 1,
+        "suspeitos": 2,
         "descartados": 2,
         "letais": 0
       }
@@ -293,8 +306,8 @@
         -38.19889
       ],
       "casos": {
-        "confirmados": 0,
-        "suspeitos": 3,
+        "confirmados": 1,
+        "suspeitos": 2,
         "descartados": 1,
         "letais": 0
       }
@@ -333,7 +346,7 @@
       ],
       "casos": {
         "confirmados": 1,
-        "suspeitos": 1,
+        "suspeitos": 2,
         "descartados": 2,
         "letais": 0
       }
@@ -384,9 +397,22 @@
         -38.136759
       ],
       "casos": {
-        "confirmados": 3,
+        "confirmados": 4,
         "suspeitos": 2,
-        "descartados": 3,
+        "descartados": 4,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Tapuiu II",
+      "localization": [
+        -5.3124879,
+        -38.1786152
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 0,
         "letais": 0
       }
     },
@@ -410,8 +436,8 @@
         -38.1354242
       ],
       "casos": {
-        "confirmados": 5,
-        "suspeitos": 7,
+        "confirmados": 6,
+        "suspeitos": 5,
         "descartados": 2,
         "letais": 1
       }
@@ -420,6 +446,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 5,
-    "dia": 22
+    "dia": 25
   }
 }
