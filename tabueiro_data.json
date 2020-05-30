@@ -9,7 +9,7 @@
       "casos": {
         "confirmados": 4,
         "suspeitos": 3,
-        "descartados": 8,
+        "descartados": 9,
         "letais": 0
       }
     },
@@ -20,9 +20,9 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 6,
+        "confirmados": 7,
         "suspeitos": 3,
-        "descartados": 20,
+        "descartados": 25,
         "letais": 0
       }
     },
@@ -33,7 +33,7 @@
         -38.1257885
       ],
       "casos": {
-        "confirmados": 0,
+        "confirmados": 1,
         "suspeitos": 4,
         "descartados": 2,
         "letais": 0
@@ -48,12 +48,25 @@
       "casos": {
         "confirmados": 0,
         "suspeitos": 0,
-        "descartados": 1,
+        "descartados": 2,
         "letais": 0
       }
     },
     {
       "nome": "Altinho",
+      "localization": [
+        -5.2253801,
+        -38.1289784
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Alto das Balanças",
       "localization": [
         -5.2253801,
         -38.1289784
@@ -72,7 +85,7 @@
         -38.1686977
       ],
       "casos": {
-        "confirmados": 0,
+        "confirmados": 1,
         "suspeitos": 0,
         "descartados": 4,
         "letais": 0
@@ -85,9 +98,9 @@
         -38.1306042
       ],
       "casos": {
-        "confirmados": 8,
-        "suspeitos": 2,
-        "descartados": 14,
+        "confirmados": 9,
+        "suspeitos": 1,
+        "descartados": 16,
         "letais": 0
       }
     },
@@ -101,6 +114,19 @@
         "confirmados": 2,
         "suspeitos": 0,
         "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Campos Velhos",
+      "localization": [
+        -5.5103854,
+        -38.0678058
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -124,9 +150,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 58,
-        "suspeitos": 13,
-        "descartados": 76,
+        "confirmados": 61,
+        "suspeitos": 11,
+        "descartados": 79,
         "letais": 1
       }
     },
@@ -164,8 +190,8 @@
       ],
       "casos": {
         "confirmados": 1,
-        "suspeitos": 1,
-        "descartados": 4,
+        "suspeitos": 0,
+        "descartados": 5,
         "letais": 0
       }
     },
@@ -203,8 +229,8 @@
       ],
       "casos": {
         "confirmados": 19,
-        "suspeitos": 6,
-        "descartados": 31,
+        "suspeitos": 5,
+        "descartados": 34,
         "letais": 0
       }
     },
@@ -254,7 +280,7 @@
         -38.1497402
       ],
       "casos": {
-        "confirmados": 1,
+        "confirmados": 2,
         "suspeitos": 0,
         "descartados": 0,
         "letais": 0
@@ -282,7 +308,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 2,
-        "descartados": 4,
+        "descartados": 6,
         "letais": 0
       }
     },
@@ -347,7 +373,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 1,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -358,8 +384,8 @@
         -38.1494417
       ],
       "casos": {
-        "confirmados": 2,
-        "suspeitos": 2,
+        "confirmados": 3,
+        "suspeitos": 1,
         "descartados": 2,
         "letais": 0
       }
@@ -384,8 +410,8 @@
         -38.1529396
       ],
       "casos": {
-        "confirmados": 0,
-        "suspeitos": 1,
+        "suspeitos": 0,
+        "confirmados": 1,
         "descartados": 6,
         "letais": 0
       }
@@ -397,9 +423,9 @@
         -38.136759
       ],
       "casos": {
-        "confirmados": 5,
+        "confirmados": 6,
         "suspeitos": 1,
-        "descartados": 6,
+        "descartados": 7,
         "letais": 0
       }
     },
@@ -449,9 +475,9 @@
         -38.1354242
       ],
       "casos": {
-        "confirmados": 9,
-        "suspeitos": 3,
-        "descartados": 2,
+        "confirmados": 11,
+        "suspeitos": 2,
+        "descartados": 4,
         "letais": 1
       }
     }
@@ -459,6 +485,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 5,
-    "dia": 28
+    "dia": 29
   }
 }
