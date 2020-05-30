@@ -1,6 +1,5 @@
 import React from 'react';
 import { Tooltip, CircleMarker } from 'react-leaflet';
-// import './style.css';
 import {
   casesColors,
   TooltipContent,
@@ -10,7 +9,6 @@ import {
   CaseLabel,
   CaseQuant,
 } from './styles'
-
 
 function Regiao({ data }) {
 

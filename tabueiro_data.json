@@ -9,7 +9,7 @@
       "casos": {
         "confirmados": 4,
         "suspeitos": 3,
-        "descartados": 9,
+        "descartados": 10,
         "letais": 0
       }
     },
@@ -20,9 +20,9 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 7,
+        "confirmados": 8,
         "suspeitos": 3,
-        "descartados": 25,
+        "descartados": 28,
         "letais": 0
       }
     },
@@ -33,9 +33,9 @@
         -38.1257885
       ],
       "casos": {
-        "confirmados": 1,
-        "suspeitos": 4,
-        "descartados": 2,
+        "confirmados": 2,
+        "suspeitos": 3,
+        "descartados": 4,
         "letais": 0
       }
     },
@@ -138,8 +138,8 @@
       ],
       "casos": {
         "confirmados": 1,
-        "suspeitos": 1,
-        "descartados": 3,
+        "suspeitos": 0,
+        "descartados": 4,
         "letais": 0
       }
     },
@@ -150,9 +150,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 61,
-        "suspeitos": 11,
-        "descartados": 79,
+        "confirmados": 68,
+        "suspeitos": 9,
+        "descartados": 85,
         "letais": 1
       }
     },
@@ -163,14 +163,14 @@
         -38.1833542
       ],
       "casos": {
-        "confirmados": 0,
+        "confirmados": 1,
         "suspeitos": 0,
         "descartados": 1,
         "letais": 0
       }
     },
     {
-      "nome": "Francisco Chagas Martins",
+      "nome": "Franc. Chagas Martins",
       "localization": [
         -5.2259591,
         -38.1508571
@@ -189,9 +189,9 @@
         -38.1087548
       ],
       "casos": {
-        "confirmados": 1,
+        "confirmados": 2,
         "suspeitos": 0,
-        "descartados": 5,
+        "descartados": 6,
         "letais": 0
       }
     },
@@ -215,9 +215,9 @@
         -38.1459729
       ],
       "casos": {
-        "confirmados": 7,
+        "confirmados": 8,
         "suspeitos": 1,
-        "descartados": 7,
+        "descartados": 8,
         "letais": 0
       }
     },
@@ -228,9 +228,9 @@
         -38.1362311
       ],
       "casos": {
-        "confirmados": 19,
-        "suspeitos": 5,
-        "descartados": 34,
+        "confirmados": 22,
+        "suspeitos": 6,
+        "descartados": 38,
         "letais": 0
       }
     },
@@ -241,7 +241,7 @@
         -38.1407181
       ],
       "casos": {
-        "confirmados": 7,
+        "confirmados": 8,
         "suspeitos": 1,
         "descartados": 6,
         "letais": 0
@@ -282,7 +282,7 @@
       "casos": {
         "confirmados": 2,
         "suspeitos": 0,
-        "descartados": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -347,7 +347,7 @@
       "casos": {
         "confirmados": 3,
         "suspeitos": 1,
-        "descartados": 2,
+        "descartados": 3,
         "letais": 0
       }
     },
@@ -384,8 +384,8 @@
         -38.1494417
       ],
       "casos": {
-        "confirmados": 3,
-        "suspeitos": 1,
+        "confirmados": 4,
+        "suspeitos": 0,
         "descartados": 2,
         "letais": 0
       }
@@ -399,7 +399,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -423,9 +423,9 @@
         -38.136759
       ],
       "casos": {
-        "confirmados": 6,
+        "confirmados": 9,
         "suspeitos": 1,
-        "descartados": 7,
+        "descartados": 6,
         "letais": 0
       }
     },
@@ -450,8 +450,8 @@
       ],
       "casos": {
         "confirmados": 0,
-        "suspeitos": 1,
-        "descartados": 1,
+        "suspeitos": 0,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -475,8 +475,8 @@
         -38.1354242
       ],
       "casos": {
-        "confirmados": 11,
-        "suspeitos": 2,
+        "confirmados": 12,
+        "suspeitos": 1,
         "descartados": 4,
         "letais": 1
       }
@@ -485,6 +485,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 5,
-    "dia": 29
+    "dia": 30
   }
 }
