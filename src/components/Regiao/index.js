@@ -1,6 +1,16 @@
 import React from 'react';
 import { Tooltip, CircleMarker } from 'react-leaflet';
-import './style.css';
+// import './style.css';
+import {
+  casesColors,
+  TooltipContent,
+  Title,
+  CovidCases,
+  CovidCase,
+  CaseLabel,
+  CaseQuant,
+} from './styles'
+
 
 function Regiao({ data }) {
 
@@ -27,7 +37,29 @@ function Regiao({ data }) {
       color={_handleColor()}
       radius={_handleRadius()} >
       <Tooltip className="Tooltip">
-        <div className="content">
+        <TooltipContent>
+          <Title>{data.nome}</Title>
+          <CovidCases>
+            <CovidCase color={casesColors.confirmados}>
+              <CaseLabel>Confirmados</CaseLabel>
+              <CaseQuant>{confirmados}</CaseQuant>
+            </CovidCase>
+            <CovidCase color={casesColors.suspeitos}>
+              <CaseLabel>Suspeitos</CaseLabel>
+              <CaseQuant>{suspeitos}</CaseQuant>
+            </CovidCase>
+            <CovidCase color={casesColors.descartados}>
+              <CaseLabel>Descartados</CaseLabel>
+              <CaseQuant>{descartados}</CaseQuant>
+            </CovidCase>
+            <CovidCase color={casesColors.letais}>
+              <CaseLabel>Letais</CaseLabel>
+              <CaseQuant>{letais}</CaseQuant>
+            </CovidCase>
+          </CovidCases>
+        </TooltipContent>
+
+        {/* <div className="content">
           <span><b>{data.nome}</b></span>
           <ul>
             <li id="confirmados">
@@ -47,7 +79,7 @@ function Regiao({ data }) {
               <div className="value">{letais}</div>
             </li>
           </ul>
-        </div>
+        </div> */}
       </Tooltip>
     </CircleMarker>
   );
