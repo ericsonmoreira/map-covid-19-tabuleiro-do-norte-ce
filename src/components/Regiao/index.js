@@ -58,28 +58,6 @@ function Regiao({ data }) {
             </CovidCase>
           </CovidCases>
         </TooltipContent>
-
-        {/* <div className="content">
-          <span><b>{data.nome}</b></span>
-          <ul>
-            <li id="confirmados">
-              Confirmados
-              <div className="value">{confirmados}</div>
-            </li>
-            <li id="suspeitos">
-              Suspeitos
-              <div className="value">{suspeitos}</div>
-            </li>
-            <li id="descartados">
-              Descartados
-              <div className="value">{descartados}</div>
-            </li>
-            <li id="letais">
-              Letais
-              <div className="value">{letais}</div>
-            </li>
-          </ul>
-        </div> */}
       </Tooltip>
     </CircleMarker>
   );
