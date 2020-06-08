@@ -7,9 +7,9 @@
         -38.1492682
       ],
       "casos": {
-        "confirmados": 4,
+        "confirmados": 13,
         "suspeitos": 3,
-        "descartados": 10,
+        "descartados": 19,
         "letais": 0
       }
     },
@@ -20,9 +20,9 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 8,
+        "confirmados": 18,
         "suspeitos": 3,
-        "descartados": 28,
+        "descartados": 43,
         "letais": 0
       }
     },
@@ -33,14 +33,27 @@
         -38.1257885
       ],
       "casos": {
-        "confirmados": 2,
-        "suspeitos": 3,
-        "descartados": 4,
+        "confirmados": 6,
+        "suspeitos": 0,
+        "descartados": 8,
         "letais": 0
       }
     },
     {
       "nome": "Água Suja",
+      "localization": [
+        -5.29252,
+        -38.0208015
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Aldeia Velha",
       "localization": [
         -5.29252,
         -38.0208015
@@ -85,7 +98,7 @@
         -38.1686977
       ],
       "casos": {
-        "confirmados": 1,
+        "confirmados": 4,
         "suspeitos": 0,
         "descartados": 4,
         "letais": 0
@@ -98,9 +111,9 @@
         -38.1306042
       ],
       "casos": {
-        "confirmados": 9,
+        "confirmados": 13,
         "suspeitos": 1,
-        "descartados": 16,
+        "descartados": 22,
         "letais": 0
       }
     },
@@ -131,6 +144,19 @@
       }
     },
     {
+      "nome": "Canta Galo",
+      "localization": [
+        -5.3010029,
+        -38.0626458
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
       "nome": "Carnaubal",
       "localization": [
         -5.2124487,
@@ -139,7 +165,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 4,
+        "descartados": 5,
         "letais": 0
       }
     },
@@ -150,9 +176,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 68,
-        "suspeitos": 9,
-        "descartados": 85,
+        "confirmados": 111,
+        "suspeitos": 8,
+        "descartados": 132,
         "letais": 1
       }
     },
@@ -189,10 +215,10 @@
         -38.1087548
       ],
       "casos": {
-        "confirmados": 2,
-        "suspeitos": 0,
-        "descartados": 6,
-        "letais": 0
+        "confirmados": 5,
+        "suspeitos": 1,
+        "descartados": 9,
+        "letais": 1
       }
     },
     {
@@ -202,8 +228,8 @@
         -38.1608574
       ],
       "casos": {
-        "confirmados": 0,
-        "suspeitos": 1,
+        "confirmados": 1,
+        "suspeitos": 2,
         "descartados": 0,
         "letais": 0
       }
@@ -215,8 +241,8 @@
         -38.1459729
       ],
       "casos": {
-        "confirmados": 8,
-        "suspeitos": 1,
+        "confirmados": 13,
+        "suspeitos": 2,
         "descartados": 8,
         "letais": 0
       }
@@ -228,9 +254,9 @@
         -38.1362311
       ],
       "casos": {
-        "confirmados": 22,
-        "suspeitos": 6,
-        "descartados": 38,
+        "confirmados": 32,
+        "suspeitos": 3,
+        "descartados": 61,
         "letais": 0
       }
     },
@@ -243,7 +269,7 @@
       "casos": {
         "confirmados": 8,
         "suspeitos": 1,
-        "descartados": 6,
+        "descartados": 8,
         "letais": 0
       }
     },
@@ -269,6 +295,19 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Limoeiro Verde",
+      "localization": [
+        -5.2464933,
+        -38.1319744
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
         "descartados": 1,
         "letais": 0
       }
@@ -280,9 +319,9 @@
         -38.1497402
       ],
       "casos": {
-        "confirmados": 3,
+        "confirmados": 10,
         "suspeitos": 0,
-        "descartados": 1,
+        "descartados": 3,
         "letais": 1
       }
     },
@@ -307,8 +346,21 @@
       ],
       "casos": {
         "confirmados": 1,
-        "suspeitos": 2,
-        "descartados": 6,
+        "suspeitos": 4,
+        "descartados": 9,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Olho d'Água do Currais",
+      "localization": [
+        -5.3528431,
+        -38.0281929
+      ],
+      "casos": {
+        "confirmados": 1,
+        "suspeitos": 0,
+        "descartados": 0,
         "letais": 0
       }
     },
@@ -319,9 +371,9 @@
         -38.1087548
       ],
       "casos": {
-        "confirmados": 0,
-        "suspeitos": 1,
-        "descartados": 0,
+        "confirmados": 1,
+        "suspeitos": 0,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -332,9 +384,9 @@
         -38.1224124
       ],
       "casos": {
-        "confirmados": 4,
+        "confirmados": 5,
         "suspeitos": 0,
-        "descartados": 0,
+        "descartados": 4,
         "letais": 0
       }
     },
@@ -345,7 +397,7 @@
         -38.19889
       ],
       "casos": {
-        "confirmados": 3,
+        "confirmados": 5,
         "suspeitos": 1,
         "descartados": 3,
         "letais": 0
@@ -359,8 +411,8 @@
       ],
       "casos": {
         "confirmados": 2,
-        "suspeitos": 0,
-        "descartados": 1,
+        "suspeitos": 1,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -386,7 +438,20 @@
       "casos": {
         "confirmados": 4,
         "suspeitos": 0,
-        "descartados": 2,
+        "descartados": 3,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Santo Antônio",
+      "localization": [
+        -5.3555463,
+        -38.0620989
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -410,9 +475,9 @@
         -38.1529396
       ],
       "casos": {
-        "suspeitos": 0,
+        "suspeitos": 4,
         "confirmados": 1,
-        "descartados": 6,
+        "descartados": 8,
         "letais": 0
       }
     },
@@ -424,8 +489,8 @@
       ],
       "casos": {
         "confirmados": 9,
-        "suspeitos": 1,
-        "descartados": 6,
+        "suspeitos": 0,
+        "descartados": 11,
         "letais": 0
       }
     },
@@ -438,18 +503,31 @@
       "casos": {
         "confirmados": 2,
         "suspeitos": 0,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Tapuio",
+      "localization": [
+        -5.3333115,
+        -38.1587548
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
         "descartados": 0,
         "letais": 0
       }
     },
     {
-      "nome": "Tapuiu II",
+      "nome": "Tapuio II",
       "localization": [
         -5.3124879,
         -38.1786152
       ],
       "casos": {
-        "confirmados": 0,
+        "confirmados": 1,
         "suspeitos": 0,
         "descartados": 2,
         "letais": 0
@@ -475,16 +553,16 @@
         -38.1354242
       ],
       "casos": {
-        "confirmados": 12,
-        "suspeitos": 1,
-        "descartados": 4,
+        "confirmados": 15,
+        "suspeitos": 0,
+        "descartados": 11,
         "letais": 1
       }
     }
   ],
   "referencia": {
     "ano": 2020,
-    "mes": 5,
-    "dia": 31
+    "mes": 6,
+    "dia": 7
   }
 }

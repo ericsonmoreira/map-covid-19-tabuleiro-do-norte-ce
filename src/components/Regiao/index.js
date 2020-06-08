@@ -16,7 +16,7 @@ function Regiao({ data }) {
 
   // Calcula tamanho do diâmetro do círculo
   const _handleRadius = () => {
-    return ((3 * confirmados + 2 * suspeitos + descartados + 5 * letais) / 4) + 6
+    return ((3 * confirmados + 2 * suspeitos + descartados + 5 * letais) / 4) + 4
   }
 
   /**
@@ -24,8 +24,9 @@ function Regiao({ data }) {
    * A cor varia de verde pra vermelho de acordo com o valor do radius
    */
   const _handleColor = () => {
-    const radius = _handleRadius()
-    return `rgb(${radius * radius}, ${255 - radius * radius}, 0)`
+    const radius = _handleRadius();
+    const hex = (radius * 0xFFFFFF<<0).toString(16);
+    return `#${hex}`;
   }
 
   return (
