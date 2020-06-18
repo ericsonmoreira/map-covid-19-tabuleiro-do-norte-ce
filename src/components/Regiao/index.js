@@ -21,13 +21,20 @@ function Regiao({ data }) {
 
   /**
    * Trata de calcular a cor que vai mostrar.
-   * A cor varia de verde pra vermelho de acordo com o valor do radius
    */
   const _handleColor = () => {
-    const radius = _handleRadius();
-    const hex = (radius * 0xFFFFFF<<0).toString(16);
-    return `#${hex}`;
+    const radius = Math.pow(_handleRadius(), 2);
+    return radius > 1000 ? '#800026' :
+      radius > 500 ? '#BD0026' :
+        radius > 200 ? '#E31A1C' :
+          radius > 100 ? '#FC4E2A' :
+            radius > 50 ? '#FD8D3C' :
+              radius > 20 ? '#FEB24C' :
+                radius > 10 ? '#FED976' :
+                  '#FFEDA0';
   }
+
+
 
   return (
     <CircleMarker
