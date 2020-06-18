@@ -17,8 +17,9 @@ function App() {
     <div className="App">
       {/* zoomControl false para desabilitar o zoom na posição padão */}
       <Map center={center} zoom={zoom} zoomControl={false}>
-        <TileLayer attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <TileLayer
+          attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+          url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png" />
         <ZoomControl position="bottomright" />
 
         {regions.map((region, index) => (
