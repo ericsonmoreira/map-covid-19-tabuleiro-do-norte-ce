@@ -8,8 +8,8 @@
       ],
       "casos": {
         "confirmados": 14,
-        "suspeitos": 2,
-        "descartados": 20,
+        "suspeitos": 0,
+        "descartados": 25,
         "letais": 0
       }
     },
@@ -20,9 +20,9 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 24,
-        "suspeitos": 3,
-        "descartados": 48,
+        "confirmados": 30,
+        "suspeitos": 1,
+        "descartados": 57,
         "letais": 0
       }
     },
@@ -33,9 +33,9 @@
         -38.1257885
       ],
       "casos": {
-        "confirmados": 6,
+        "confirmados": 8,
         "suspeitos": 0,
-        "descartados": 9,
+        "descartados": 10,
         "letais": 0
       }
     },
@@ -59,7 +59,7 @@
         -38.0208015
       ],
       "casos": {
-        "confirmados": 0,
+        "confirmados": 1,
         "suspeitos": 0,
         "descartados": 2,
         "letais": 0
@@ -74,7 +74,7 @@
       "casos": {
         "confirmados": 0,
         "suspeitos": 0,
-        "descartados": 1,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -100,7 +100,7 @@
       "casos": {
         "confirmados": 4,
         "suspeitos": 0,
-        "descartados": 4,
+        "descartados": 6,
         "letais": 0
       }
     },
@@ -111,9 +111,9 @@
         -38.1306042
       ],
       "casos": {
-        "confirmados": 14,
-        "suspeitos": 3,
-        "descartados": 25,
+        "confirmados": 16,
+        "suspeitos": 1,
+        "descartados": 31,
         "letais": 0
       }
     },
@@ -124,9 +124,9 @@
         -38.1761996
       ],
       "casos": {
-        "confirmados": 2,
+        "confirmados": 3,
         "suspeitos": 0,
-        "descartados": 2,
+        "descartados": 3,
         "letais": 0
       }
     },
@@ -165,7 +165,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 5,
+        "descartados": 6,
         "letais": 0
       }
     },
@@ -176,9 +176,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 119,
-        "suspeitos": 11,
-        "descartados": 141,
+        "confirmados": 139,
+        "suspeitos": 4,
+        "descartados": 167,
         "letais": 1
       }
     },
@@ -190,6 +190,19 @@
       ],
       "casos": {
         "confirmados": 1,
+        "suspeitos": 0,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Donato",
+      "localization": [
+        -5.3767334,
+        -38.1320856
+      ],
+      "casos": {
+        "confirmados": 0,
         "suspeitos": 0,
         "descartados": 1,
         "letais": 0
@@ -215,9 +228,9 @@
         -38.1087548
       ],
       "casos": {
-        "confirmados": 5,
-        "suspeitos": 2,
-        "descartados": 11,
+        "confirmados": 6,
+        "suspeitos": 0,
+        "descartados": 12,
         "letais": 0
       }
     },
@@ -230,7 +243,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 1,
-        "descartados": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -241,9 +254,9 @@
         -38.1459729
       ],
       "casos": {
-        "confirmados": 13,
-        "suspeitos": 2,
-        "descartados": 11,
+        "confirmados": 14,
+        "suspeitos": 1,
+        "descartados": 18,
         "letais": 0
       }
     },
@@ -254,9 +267,9 @@
         -38.1362311
       ],
       "casos": {
-        "confirmados": 33,
-        "suspeitos": 1,
-        "descartados": 70,
+        "confirmados": 38,
+        "suspeitos": 0,
+        "descartados": 81,
         "letais": 0
       }
     },
@@ -282,7 +295,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 1,
+        "descartados": 3,
         "letais": 0
       }
     },
@@ -293,7 +306,7 @@
         -38.1160205
       ],
       "casos": {
-        "confirmados": 1,
+        "confirmados": 2,
         "suspeitos": 0,
         "descartados": 2,
         "letais": 0
@@ -319,8 +332,8 @@
         -38.1497402
       ],
       "casos": {
-        "confirmados": 14,
-        "suspeitos": 1,
+        "confirmados": 18,
+        "suspeitos": 0,
         "descartados": 4,
         "letais": 1
       }
@@ -345,9 +358,9 @@
         -38.0274273
       ],
       "casos": {
-        "confirmados": 4,
-        "suspeitos": 3,
-        "descartados": 10,
+        "confirmados": 8,
+        "suspeitos": 2,
+        "descartados": 12,
         "letais": 1
       }
     },
@@ -398,8 +411,8 @@
       ],
       "casos": {
         "confirmados": 6,
-        "suspeitos": 2,
-        "descartados": 4,
+        "suspeitos": 0,
+        "descartados": 6,
         "letais": 0
       }
     },
@@ -412,7 +425,7 @@
       "casos": {
         "confirmados": 2,
         "suspeitos": 1,
-        "descartados": 3,
+        "descartados": 5,
         "letais": 0
       }
     },
@@ -436,9 +449,9 @@
         -38.1494417
       ],
       "casos": {
-        "confirmados": 4,
+        "confirmados": 5,
         "suspeitos": 0,
-        "descartados": 5,
+        "descartados": 4,
         "letais": 0
       }
     },
@@ -450,8 +463,8 @@
       ],
       "casos": {
         "confirmados": 0,
-        "suspeitos": 1,
-        "descartados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -488,9 +501,9 @@
         -38.1529396
       ],
       "casos": {
-        "suspeitos": 5,
-        "confirmados": 2,
-        "descartados": 9,
+        "confirmados": 9,
+        "suspeitos": 1,
+        "descartados": 13,
         "letais": 0
       }
     },
@@ -501,9 +514,9 @@
         -38.136759
       ],
       "casos": {
-        "confirmados": 9,
+        "confirmados": 10,
         "suspeitos": 1,
-        "descartados": 10,
+        "descartados": 15,
         "letais": 0
       }
     },
@@ -534,15 +547,28 @@
       }
     },
     {
+      "nome": "Taperinha",
+      "localization": [
+        -5.2400931,
+        -38.1551133
+      ],
+      "casos": {
+        "confirmados": 1,
+        "suspeitos": 0,
+        "descartados": 0,
+        "letais": 0
+      }
+    },
+    {
       "nome": "Tapuio",
       "localization": [
         -5.3333115,
         -38.1587548
       ],
       "casos": {
-        "confirmados": 0,
-        "suspeitos": 1,
-        "descartados": 1,
+        "confirmados": 1,
+        "suspeitos": 0,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -553,9 +579,9 @@
         -38.1786152
       ],
       "casos": {
-        "confirmados": 1,
+        "confirmados": 2,
         "suspeitos": 0,
-        "descartados": 2,
+        "descartados": 3,
         "letais": 0
       }
     },
@@ -579,9 +605,9 @@
         -38.1354242
       ],
       "casos": {
-        "confirmados": 16,
-        "suspeitos": 1,
-        "descartados": 13,
+        "confirmados": 17,
+        "suspeitos": 0,
+        "descartados": 15,
         "letais": 1
       }
     }
@@ -589,6 +615,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 6,
-    "dia": 10
+    "dia": 16
   }
 }
