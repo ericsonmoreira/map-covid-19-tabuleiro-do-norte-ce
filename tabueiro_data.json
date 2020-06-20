@@ -7,9 +7,9 @@
         -38.1492682
       ],
       "casos": {
-        "confirmados": 14,
+        "confirmados": 17,
         "suspeitos": 0,
-        "descartados": 28,
+        "descartados": 29,
         "letais": 0
       }
     },
@@ -20,9 +20,9 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 32,
+        "confirmados": 35,
         "suspeitos": 0,
-        "descartados": 59,
+        "descartados": 61,
         "letais": 0
       }
     },
@@ -112,8 +112,8 @@
       ],
       "casos": {
         "confirmados": 16,
-        "suspeitos": 1,
-        "descartados": 33,
+        "suspeitos": 2,
+        "descartados": 34,
         "letais": 0
       }
     },
@@ -176,9 +176,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 143,
-        "suspeitos": 4,
-        "descartados": 174,
+        "confirmados": 144,
+        "suspeitos": 6,
+        "descartados": 176,
         "letais": 2
       }
     },
@@ -230,7 +230,7 @@
       "casos": {
         "confirmados": 6,
         "suspeitos": 0,
-        "descartados": 13,
+        "descartados": 14,
         "letais": 0
       }
     },
@@ -254,7 +254,7 @@
         -38.1459729
       ],
       "casos": {
-        "confirmados": 14,
+        "confirmados": 15,
         "suspeitos": 1,
         "descartados": 19,
         "letais": 0
@@ -267,7 +267,7 @@
         -38.1362311
       ],
       "casos": {
-        "confirmados": 39,
+        "confirmados": 42,
         "suspeitos": 0,
         "descartados": 84,
         "letais": 0
@@ -360,7 +360,7 @@
       "casos": {
         "confirmados": 8,
         "suspeitos": 2,
-        "descartados": 12,
+        "descartados": 13,
         "letais": 1
       }
     },
@@ -554,7 +554,7 @@
       ],
       "casos": {
         "confirmados": 2,
-        "suspeitos": 0,
+        "suspeitos": 1,
         "descartados": 2,
         "letais": 0
       }
@@ -582,7 +582,7 @@
         "confirmados": 1,
         "suspeitos": 0,
         "descartados": 2,
-        "letais": 0
+        "letais": 1
       }
     },
     {
@@ -607,7 +607,7 @@
       "casos": {
         "confirmados": 0,
         "suspeitos": 1,
-        "descartados": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -628,6 +628,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 6,
-    "dia": 18
+    "dia": 19
   }
 }
