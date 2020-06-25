@@ -20,9 +20,9 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 36,
+        "confirmados": 39,
         "suspeitos": 0,
-        "descartados": 63,
+        "descartados": 66,
         "letais": 0
       }
     },
@@ -33,9 +33,9 @@
         -38.1257885
       ],
       "casos": {
-        "confirmados": 8,
+        "confirmados": 9,
         "suspeitos": 0,
-        "descartados": 11,
+        "descartados": 13,
         "letais": 0
       }
     },
@@ -105,6 +105,19 @@
       }
     },
     {
+      "nome": "Boa Vista",
+      "localization": [
+        5.2436013,
+        -38.1616507
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 1,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
       "nome": "Bom Futuro",
       "localization": [
         -5.2563379,
@@ -113,7 +126,7 @@
       "casos": {
         "confirmados": 16,
         "suspeitos": 1,
-        "descartados": 39,
+        "descartados": 43,
         "letais": 0
       }
     },
@@ -176,9 +189,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 148,
+        "confirmados": 156,
         "suspeitos": 5,
-        "descartados": 187,
+        "descartados": 190,
         "letais": 3
       }
     },
@@ -228,9 +241,9 @@
         -38.1087548
       ],
       "casos": {
-        "confirmados": 6,
+        "confirmados": 7,
         "suspeitos": 0,
-        "descartados": 16,
+        "descartados": 18,
         "letais": 0
       }
     },
@@ -254,7 +267,7 @@
         -38.1608574
       ],
       "casos": {
-        "confirmados": 6,
+        "confirmados": 9,
         "suspeitos": 1,
         "descartados": 4,
         "letais": 0
@@ -267,9 +280,9 @@
         -38.1459729
       ],
       "casos": {
-        "confirmados": 15,
+        "confirmados": 16,
         "suspeitos": 1,
-        "descartados": 19,
+        "descartados": 18,
         "letais": 0
       }
     },
@@ -280,9 +293,9 @@
         -38.1362311
       ],
       "casos": {
-        "confirmados": 44,
+        "confirmados": 49,
         "suspeitos": 0,
-        "descartados": 93,
+        "descartados": 96,
         "letais": 0
       }
     },
@@ -347,7 +360,7 @@
       "casos": {
         "confirmados": 21,
         "suspeitos": 0,
-        "descartados": 4,
+        "descartados": 6,
         "letais": 1
       }
     },
@@ -424,8 +437,8 @@
       ],
       "casos": {
         "confirmados": 5,
-        "suspeitos": 0,
-        "descartados": 6,
+        "suspeitos": 1,
+        "descartados": 5,
         "letais": 0
       }
     },
@@ -438,7 +451,7 @@
       "casos": {
         "confirmados": 6,
         "suspeitos": 0,
-        "descartados": 6,
+        "descartados": 7,
         "letais": 0
       }
     },
@@ -478,6 +491,19 @@
         "confirmados": 5,
         "suspeitos": 0,
         "descartados": 4,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Sabiá",
+      "localization": [
+        -5.2515793,
+        -38.1324553
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -527,9 +553,9 @@
         -38.1529396
       ],
       "casos": {
-        "confirmados": 10,
+        "confirmados": 13,
         "suspeitos": 1,
-        "descartados": 13,
+        "descartados": 14,
         "letais": 0
       }
     },
@@ -667,6 +693,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 6,
-    "dia": 22
+    "dia": 24
   }
 }

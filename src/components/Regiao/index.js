@@ -34,8 +34,6 @@ function Regiao({ data }) {
                   '#FFEDA0';
   }
 
-
-
   return (
     <CircleMarker
       key={data.id}
