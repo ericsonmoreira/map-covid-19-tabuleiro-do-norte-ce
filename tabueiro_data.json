@@ -9,7 +9,7 @@
       "casos": {
         "confirmados": 19,
         "suspeitos": 0,
-        "descartados": 31,
+        "descartados": 32,
         "letais": 1
       }
     },
@@ -20,9 +20,9 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 40,
+        "confirmados": 44,
         "suspeitos": 0,
-        "descartados": 66,
+        "descartados": 70,
         "letais": 0
       }
     },
@@ -144,6 +144,19 @@
       }
     },
     {
+      "nome": "Campos Novos",
+      "localization": [
+        -5.2990372,
+        -38.1529396
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
+      }
+    },
+    {
       "nome": "Campos Velhos",
       "localization": [
         -5.5103854,
@@ -189,9 +202,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 159,
+        "confirmados": 162,
         "suspeitos": 5,
-        "descartados": 202,
+        "descartados": 209,
         "letais": 4
       }
     },
@@ -241,9 +254,9 @@
         -38.1087548
       ],
       "casos": {
-        "confirmados": 8,
+        "confirmados": 9,
         "suspeitos": 0,
-        "descartados": 18,
+        "descartados": 19,
         "letais": 0
       }
     },
@@ -280,9 +293,9 @@
         -38.1459729
       ],
       "casos": {
-        "confirmados": 16,
+        "confirmados": 17,
         "suspeitos": 1,
-        "descartados": 19,
+        "descartados": 21,
         "letais": 0
       }
     },
@@ -293,7 +306,7 @@
         -38.1362311
       ],
       "casos": {
-        "confirmados": 51,
+        "confirmados": 52,
         "suspeitos": 0,
         "descartados": 98,
         "letais": 0
@@ -360,7 +373,7 @@
       "casos": {
         "confirmados": 21,
         "suspeitos": 0,
-        "descartados": 7,
+        "descartados": 8,
         "letais": 1
       }
     },
@@ -399,7 +412,7 @@
       "casos": {
         "confirmados": 8,
         "suspeitos": 2,
-        "descartados": 13,
+        "descartados": 14,
         "letais": 1
       }
     },
@@ -449,7 +462,7 @@
         -38.19889
       ],
       "casos": {
-        "confirmados": 6,
+        "confirmados": 7,
         "suspeitos": 0,
         "descartados": 7,
         "letais": 0
@@ -553,9 +566,9 @@
         -38.1529396
       ],
       "casos": {
-        "confirmados": 13,
+        "confirmados": 14,
         "suspeitos": 1,
-        "descartados": 14,
+        "descartados": 15,
         "letais": 0
       }
     },
@@ -609,6 +622,18 @@
         "suspeitos": 0,
         "descartados": 0,
         "letais": 1
+      }
+    },
+    {
+      "nome": "SITIO TIU",
+      "localization": [
+        -5.2438971,-38.1372712
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
+        "letais": 0
       }
     },
     {
@@ -683,9 +708,9 @@
         -38.1354242
       ],
       "casos": {
-        "confirmados": 18,
+        "confirmados": 21,
         "suspeitos": 0,
-        "descartados": 20,
+        "descartados": 24,
         "letais": 1
       }
     }
@@ -693,6 +718,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 6,
-    "dia": 26
+    "dia": 29
   }
 }
