@@ -7,9 +7,9 @@
         -38.1492682
       ],
       "casos": {
-        "confirmados": 19,
+        "confirmados": 20,
         "suspeitos": 0,
-        "descartados": 32,
+        "descartados": 35,
         "letais": 1
       }
     },
@@ -21,8 +21,8 @@
       ],
       "casos": {
         "confirmados": 44,
-        "suspeitos": 0,
-        "descartados": 70,
+        "suspeitos": 1,
+        "descartados": 75,
         "letais": 0
       }
     },
@@ -35,7 +35,7 @@
       "casos": {
         "confirmados": 9,
         "suspeitos": 0,
-        "descartados": 13,
+        "descartados": 15,
         "letais": 0
       }
     },
@@ -47,8 +47,8 @@
       ],
       "casos": {
         "confirmados": 0,
-        "suspeitos": 0,
-        "descartados": 2,
+        "suspeitos": 1,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -100,7 +100,7 @@
       "casos": {
         "confirmados": 4,
         "suspeitos": 0,
-        "descartados": 6,
+        "descartados": 8,
         "letais": 0
       }
     },
@@ -111,10 +111,10 @@
         -38.1616507
       ],
       "casos": {
-        "confirmados": 0,
+        "confirmados": 1,
         "suspeitos": 1,
-        "descartados": 1,
-        "letais": 0
+        "descartados": 0,
+        "letais": 1
       }
     },
     {
@@ -124,9 +124,9 @@
         -38.1306042
       ],
       "casos": {
-        "confirmados": 18,
+        "confirmados": 21,
         "suspeitos": 1,
-        "descartados": 43,
+        "descartados": 46,
         "letais": 0
       }
     },
@@ -139,7 +139,7 @@
       "casos": {
         "confirmados": 4,
         "suspeitos": 0,
-        "descartados": 3,
+        "descartados": 4,
         "letais": 0
       }
     },
@@ -202,9 +202,9 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 162,
-        "suspeitos": 5,
-        "descartados": 209,
+        "confirmados": 171,
+        "suspeitos": 7,
+        "descartados": 224,
         "letais": 4
       }
     },
@@ -230,7 +230,7 @@
       "casos": {
         "confirmados": 0,
         "suspeitos": 0,
-        "descartados": 1,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -256,7 +256,7 @@
       "casos": {
         "confirmados": 9,
         "suspeitos": 0,
-        "descartados": 19,
+        "descartados": 22,
         "letais": 0
       }
     },
@@ -295,7 +295,7 @@
       "casos": {
         "confirmados": 17,
         "suspeitos": 1,
-        "descartados": 21,
+        "descartados": 22,
         "letais": 0
       }
     },
@@ -306,9 +306,9 @@
         -38.1362311
       ],
       "casos": {
-        "confirmados": 52,
-        "suspeitos": 0,
-        "descartados": 98,
+        "confirmados": 55,
+        "suspeitos": 1,
+        "descartados": 102,
         "letais": 0
       }
     },
@@ -321,7 +321,7 @@
       "casos": {
         "confirmados": 9,
         "suspeitos": 0,
-        "descartados": 10,
+        "descartados": 12,
         "letais": 0
       }
     },
@@ -371,9 +371,9 @@
         -38.1497402
       ],
       "casos": {
-        "confirmados": 21,
+        "confirmados": 22,
         "suspeitos": 0,
-        "descartados": 8,
+        "descartados": 9,
         "letais": 1
       }
     },
@@ -384,7 +384,7 @@
         -38.2082284
       ],
       "casos": {
-        "confirmados": 2,
+        "confirmados": 3,
         "suspeitos": 0,
         "descartados": 4,
         "letais": 0
@@ -410,9 +410,9 @@
         -38.0274273
       ],
       "casos": {
-        "confirmados": 8,
+        "confirmados": 9,
         "suspeitos": 2,
-        "descartados": 14,
+        "descartados": 16,
         "letais": 1
       }
     },
@@ -450,8 +450,8 @@
       ],
       "casos": {
         "confirmados": 5,
-        "suspeitos": 1,
-        "descartados": 5,
+        "suspeitos": 0,
+        "descartados": 7,
         "letais": 0
       }
     },
@@ -464,7 +464,7 @@
       "casos": {
         "confirmados": 7,
         "suspeitos": 0,
-        "descartados": 7,
+        "descartados": 8,
         "letais": 0
       }
     },
@@ -504,6 +504,19 @@
         "confirmados": 5,
         "suspeitos": 0,
         "descartados": 4,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Poço dos Pintos",
+      "localization": [
+        -5.2562476,
+        -38.0456898
+      ],
+      "casos": {
+        "confirmados": 1,
+        "suspeitos": 0,
+        "descartados": 0,
         "letais": 0
       }
     },
@@ -566,9 +579,22 @@
         -38.1529396
       ],
       "casos": {
-        "confirmados": 14,
-        "suspeitos": 1,
-        "descartados": 15,
+        "confirmados": 16,
+        "suspeitos": 0,
+        "descartados": 16,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "São Geraldo",
+      "localization": [
+        -5.3176051,
+        -37.9203763
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -579,7 +605,7 @@
         -38.136759
       ],
       "casos": {
-        "confirmados": 12,
+        "confirmados": 14,
         "suspeitos": 1,
         "descartados": 17,
         "letais": 0
@@ -625,9 +651,10 @@
       }
     },
     {
-      "nome": "SITIO TIU",
+      "nome": "Sítio Tiu",
       "localization": [
-        -5.2438971,-38.1372712
+        -5.2438971,
+        -38.1372712
       ],
       "casos": {
         "confirmados": 0,
@@ -643,9 +670,9 @@
         -38.1555928
       ],
       "casos": {
-        "confirmados": 2,
+        "confirmados": 3,
         "suspeitos": 0,
-        "descartados": 3,
+        "descartados": 4,
         "letais": 0
       }
     },
@@ -710,14 +737,14 @@
       "casos": {
         "confirmados": 21,
         "suspeitos": 0,
-        "descartados": 24,
+        "descartados": 27,
         "letais": 1
       }
     }
   ],
   "referencia": {
     "ano": 2020,
-    "mes": 6,
-    "dia": 29
+    "mes": 7,
+    "dia": 4
   }
 }

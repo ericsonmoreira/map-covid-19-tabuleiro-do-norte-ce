@@ -1,13 +1,12 @@
 import React from 'react';
-import { Map, TileLayer, ZoomControl } from 'react-leaflet'
-import { useTabuleiroData } from './context/TabuleiroData'
+import { Map, TileLayer, ZoomControl } from 'react-leaflet';
+import { useTabuleiroData } from './context/TabuleiroData';
 import Regiao from './components/Regiao';
 import SituacaoAtual from './components/SituacaoAtual';
 import Info from './components/Info';
-// import LocalidadesTable from './components/LocalidadesTable';
 
 const center = [-5.2482901, -38.1303705];
-const zoom = 12;
+const zoom = 13;
 
 function App() {
 
@@ -27,8 +26,6 @@ function App() {
         ))}
 
         <SituacaoAtual />
-
-        {/* <LocalidadesTable /> */}
 
         <Info />
 
