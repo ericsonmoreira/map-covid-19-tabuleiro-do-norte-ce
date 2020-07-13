@@ -7,9 +7,9 @@
         -38.1492682
       ],
       "casos": {
-        "confirmados": 20,
+        "confirmados": 21,
         "suspeitos": 0,
-        "descartados": 35,
+        "descartados": 41,
         "letais": 1
       }
     },
@@ -20,9 +20,9 @@
         -38.1249066
       ],
       "casos": {
-        "confirmados": 44,
-        "suspeitos": 1,
-        "descartados": 75,
+        "confirmados": 47,
+        "suspeitos": 0,
+        "descartados": 79,
         "letais": 0
       }
     },
@@ -33,7 +33,7 @@
         -38.1257885
       ],
       "casos": {
-        "confirmados": 9,
+        "confirmados": 12,
         "suspeitos": 0,
         "descartados": 15,
         "letais": 0
@@ -47,8 +47,8 @@
       ],
       "casos": {
         "confirmados": 0,
-        "suspeitos": 1,
-        "descartados": 1,
+        "suspeitos": 0,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -61,7 +61,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 3,
+        "descartados": 4,
         "letais": 0
       }
     },
@@ -98,9 +98,22 @@
         -38.1686977
       ],
       "casos": {
-        "confirmados": 4,
+        "confirmados": 5,
         "suspeitos": 0,
         "descartados": 8,
+        "letais": 0
+      }
+    },
+    {
+      "nome": "Boa Esperança",
+      "localization": [
+        -5.3720893,
+        -38.0462835
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 3,
         "letais": 0
       }
     },
@@ -112,7 +125,7 @@
       ],
       "casos": {
         "confirmados": 1,
-        "suspeitos": 1,
+        "suspeitos": 0,
         "descartados": 0,
         "letais": 1
       }
@@ -124,9 +137,9 @@
         -38.1306042
       ],
       "casos": {
-        "confirmados": 21,
-        "suspeitos": 1,
-        "descartados": 46,
+        "confirmados": 22,
+        "suspeitos": 0,
+        "descartados": 48,
         "letais": 0
       }
     },
@@ -137,9 +150,9 @@
         -38.1761996
       ],
       "casos": {
-        "confirmados": 4,
+        "confirmados": 7,
         "suspeitos": 0,
-        "descartados": 4,
+        "descartados": 5,
         "letais": 0
       }
     },
@@ -191,7 +204,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 7,
+        "descartados": 8,
         "letais": 0
       }
     },
@@ -202,10 +215,10 @@
         -38.133616
       ],
       "casos": {
-        "confirmados": 171,
-        "suspeitos": 7,
-        "descartados": 224,
-        "letais": 4
+        "confirmados": 182,
+        "suspeitos": 3,
+        "descartados": 243,
+        "letais": 5
       }
     },
     {
@@ -217,7 +230,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 2,
+        "descartados": 5,
         "letais": 0
       }
     },
@@ -254,8 +267,8 @@
         -38.1087548
       ],
       "casos": {
-        "confirmados": 9,
-        "suspeitos": 0,
+        "confirmados": 11,
+        "suspeitos": 1,
         "descartados": 22,
         "letais": 0
       }
@@ -293,9 +306,9 @@
         -38.1459729
       ],
       "casos": {
-        "confirmados": 17,
-        "suspeitos": 1,
-        "descartados": 22,
+        "confirmados": 19,
+        "suspeitos": 0,
+        "descartados": 26,
         "letais": 0
       }
     },
@@ -306,9 +319,9 @@
         -38.1362311
       ],
       "casos": {
-        "confirmados": 55,
-        "suspeitos": 1,
-        "descartados": 102,
+        "confirmados": 58,
+        "suspeitos": 0,
+        "descartados": 108,
         "letais": 0
       }
     },
@@ -334,7 +347,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 3,
+        "descartados": 4,
         "letais": 0
       }
     },
@@ -373,7 +386,7 @@
       "casos": {
         "confirmados": 22,
         "suspeitos": 0,
-        "descartados": 9,
+        "descartados": 10,
         "letais": 1
       }
     },
@@ -391,7 +404,7 @@
       }
     },
     {
-      "nome": "MULTIRÃO TABULEIRO DO NORTE",
+      "nome": "Multirão Tabuleiro do Norte",
       "localization": [
         -5.2441869,
         -38.1175466
@@ -399,7 +412,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 0,
+        "descartados": 1,
         "letais": 0
       }
     },
@@ -410,9 +423,9 @@
         -38.0274273
       ],
       "casos": {
-        "confirmados": 9,
-        "suspeitos": 2,
-        "descartados": 16,
+        "confirmados": 15,
+        "suspeitos": 1,
+        "descartados": 18,
         "letais": 1
       }
     },
@@ -438,7 +451,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 4,
+        "descartados": 6,
         "letais": 0
       }
     },
@@ -451,7 +464,7 @@
       "casos": {
         "confirmados": 5,
         "suspeitos": 0,
-        "descartados": 7,
+        "descartados": 9,
         "letais": 0
       }
     },
@@ -477,7 +490,7 @@
       "casos": {
         "confirmados": 2,
         "suspeitos": 0,
-        "descartados": 6,
+        "descartados": 7,
         "letais": 0
       }
     },
@@ -503,7 +516,7 @@
       "casos": {
         "confirmados": 5,
         "suspeitos": 0,
-        "descartados": 4,
+        "descartados": 5,
         "letais": 0
       }
     },
@@ -541,7 +554,7 @@
       ],
       "casos": {
         "confirmados": 0,
-        "suspeitos": 0,
+        "suspeitos": 1,
         "descartados": 1,
         "letais": 0
       }
@@ -555,7 +568,7 @@
       "casos": {
         "confirmados": 0,
         "suspeitos": 0,
-        "descartados": 1,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -568,7 +581,7 @@
       "casos": {
         "confirmados": 1,
         "suspeitos": 0,
-        "descartados": 1,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -599,6 +612,19 @@
       }
     },
     {
+      "nome": "São José",
+      "localization": [
+        -5.2397535,
+        -38.136117
+      ],
+      "casos": {
+        "confirmados": 0,
+        "suspeitos": 0,
+        "descartados": 2,
+        "letais": 0
+      }
+    },
+    {
       "nome": "São Vicente",
       "localization": [
         -5.2575437,
@@ -606,8 +632,8 @@
       ],
       "casos": {
         "confirmados": 14,
-        "suspeitos": 1,
-        "descartados": 17,
+        "suspeitos": 0,
+        "descartados": 19,
         "letais": 0
       }
     },
@@ -671,7 +697,7 @@
       ],
       "casos": {
         "confirmados": 3,
-        "suspeitos": 0,
+        "suspeitos": 1,
         "descartados": 4,
         "letais": 0
       }
@@ -696,9 +722,9 @@
         -38.1587548
       ],
       "casos": {
-        "confirmados": 1,
+        "confirmados": 2,
         "suspeitos": 0,
-        "descartados": 2,
+        "descartados": 5,
         "letais": 1
       }
     },
@@ -723,8 +749,8 @@
       ],
       "casos": {
         "confirmados": 0,
-        "suspeitos": 1,
-        "descartados": 1,
+        "suspeitos": 0,
+        "descartados": 2,
         "letais": 0
       }
     },
@@ -745,6 +771,6 @@
   "referencia": {
     "ano": 2020,
     "mes": 7,
-    "dia": 4
+    "dia": 12
   }
 }
